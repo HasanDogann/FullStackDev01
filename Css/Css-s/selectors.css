@@ -1,6 +1,10 @@
 * {
   border: 1px solid orange;
 }
+h1 {
+  color: violet;
+  background-color: pink;
+}
 
 /* All p labels*/
 p {
@@ -16,6 +20,10 @@ div p {
   border: 1px solid sienna;
 }
 
+div > div.box {
+  background-color: silver;
+}
+
 /* All p and div labels*/
 div,
 p {
@@ -29,4 +37,49 @@ div > p {
 /* First div labels which come after from a p label*/
 p + div {
   border: 1px solid gold;
+}
+
+/* All p labels with has title*/
+p[title] {
+  background-color: burlywood;
+}
+/* All p labels with has spesific title*/
+p[title="first"] {
+  background-color: seagreen;
+}
+/* All a labels which starts with https*/
+a[href^="https"] {
+  background-color: rgb(156, 189, 171);
+}
+/*Button is type of submit */
+button[type="submit"] {
+  background-color: palegreen;
+}
+
+/*Pseduo Selectors below this line */
+
+p::first-letter {
+  font-size: 48px;
+}
+p.p1::first-line {
+  color: tomato;
+}
+a:link {
+  color: blueviolet;
+}
+a:hover {
+  color: brown;
+}
+a:visited {
+  color: rgb(240, 27, 17);
+}
+span {
+  display: none;
+  background-color: turquoise;
+  padding: 20px;
+}
+
+/*When mouse hover the div section, span section in div will change  */
+div:hover span {
+  display: block;
 }
