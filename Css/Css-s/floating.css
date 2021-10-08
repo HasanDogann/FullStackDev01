@@ -1,0 +1,40 @@
+img {
+  width: 200px;
+  float: left;
+  margin-right: 10px;
+}
+#container {
+  background: rgb(201, 199, 199);
+}
+#clear {
+  overflow: auto;
+}
+p {
+  border: 1px solid grey;
+  padding: 5px;
+}
+
+p::after {
+  content: "æ deneme";
+}
+.clear {
+  overflow: auto;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  border: 1px solid plum;
+  margin: 2px;
+}
+#first {
+  background-color: royalblue;
+  float: right;
+}
+#second {
+  background-color: rgb(23, 31, 56);
+  float: right;
+}
+#third {
+  background-color: rgb(170, 187, 238);
+  float: right;
+}
