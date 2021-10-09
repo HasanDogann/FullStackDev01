@@ -1,0 +1,36 @@
+div {
+  border: 0.15em solid salmon;
+  border-radius: 0.3em;
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin-top: 5px;
+}
+.first {
+  background: rgb(237, 209, 189);
+  margin: 0px 0px 0px 0px;
+  padding: 10px;
+}
+.second {
+  background: salmon;
+  margin: 5px 0px 0px 0px;
+  padding: 10px;
+}
+.third {
+  background: sandybrown;
+  margin: 5px 0px 0px 0px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.fourth {
+  border-radius: 50%;
+  background: rgb(126, 91, 61);
+  padding: 10px;
+}
+body {
+  margin: 0;
+}
+#p1 {
+  margin: 5px 0px 0px 0px;
+  background-color: steelblue;
+}
