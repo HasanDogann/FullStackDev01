@@ -1,0 +1,28 @@
+p {
+  border: 1px solid hotpink;
+  width: 100px;
+  height: 180px;
+  overflow: auto;
+}
+.static {
+  position: static;
+}
+.relative {
+  position: relative;
+  top: 10px;
+}
+.absolute {
+  position: absolute;
+  left: 120px;
+  top: 0;
+}
+.fixed {
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+.sticky {
+  position: sticky;
+  top: 0;
+  left: 150px;
+}
