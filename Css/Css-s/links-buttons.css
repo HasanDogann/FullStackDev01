@@ -22,6 +22,7 @@ a:hover {
 .primary {
   background-color: #007bff;
   color: white;
+  box-shadow: 0.1em 0.1em 0.1em;
 }
 .warning {
   background-color: rgb(247, 247, 94);
@@ -30,6 +31,7 @@ a:hover {
 
 .success {
   background-color: green;
+
   color: white;
 }
 
