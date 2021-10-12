@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  height: 95vh;
+  background-image: linear-gradient(
+      rgba(102, 255, 102, 0.7),
+      rgba(230, 255, 230, 0.7)
+    ),
+    url(/Htmls/images/bg.jpg);
+  background-size: cover;
+  background-position: top;
+
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+  position: relative;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.heading {
+  text-transform: uppercase;
+  color: white;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+.heading-main {
+  display: block;
+  font-size: 2em;
+  letter-spacing: 0.2em;
+}
+.heading-sub {
+  font-size: 1em;
+  display: block;
+  letter-spacing: 0.2em;
+}
+.logo-box {
+  position: absolute;
+  top: 2.5em;
+  left: 2.5em;
+}
+.logo {
+  height: 5em;
+}
