@@ -14,6 +14,9 @@ div {
 .orange {
   background-color: orange;
 }
+.green {
+  background-color: green;
+}
 #header {
   background-color: cyan;
   height: 150px;
