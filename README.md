@@ -1,12 +1,13 @@
 # FullStackDev01
 
-Full Stack Development
--HTML
--CSS
--Bootstrap
--Javascript
-**_Angular
--Vue.js
-_**Node.js
-**_ Express
-_**Mongo Db
+## Full Stack Development
+
+- HTML
+- CSS
+- Bootstrap
+- Javascript
+  \*\* Angular
+- Vue.js
+  ** Node.js
+  ** Express
+  \*\* Mongo Db
