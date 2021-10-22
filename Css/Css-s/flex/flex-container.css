@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  /*Hepsi sırayla alt alta gelir
+  /* flex-direction: row-reverse; */
+
+  /* Hepsi yan yana gelir
+  /* flex-direction: column; */
+
+  /* Yan tarafa sığmayanlar alta iner 
+
+  flex-wrap: wrap;*/
+
+  justify-content: center;
+  background-color: #f2f2f2;
+
+  height: 500px;
+}
+
+.item {
+  padding: 40px;
+  background-color: tomato;
+  margin: 10px;
+  color: #fff;
+  font-size: 25px;
+}
+
+.item3 {
+  margin-left: auto;
+}
+
+.item2 {
+  margin-right: auto;
+  margin-bottom: auto;
+}
