@@ -1,0 +1,29 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+table th,
+tr,
+td {
+  padding: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+table th {
+  color: white;
+  background-color: tomato;
+  border: 1px solid rgb(196, 195, 195);
+  text-align: left;
+}
+
+table td {
+  border: 1px solid rgb(196, 195, 195);
+  color: black;
+}
+
+table tr:nth-child(even) {
+  background-color: gainsboro;
+}
+
+table tr:hover {
+  background-color: gainsboro;
+}

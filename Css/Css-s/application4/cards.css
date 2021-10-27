@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  width: 60%;
+  margin: 1em;
+  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.2);
+  border-radius: 0.2em;
+  -webkit-transition: box-shadow 0.3s;
+  transition: box-shadow 0.3s;
+}
+
+.card-image {
+  max-height: 20em;
+  border-top-left-radius: 0.2em;
+  border-top-right-radius: 0.2em;
+  width: 100%;
+  -webkit-transition: opacity 200ms ease;
+  transition: opacity 200ms ease;
+}
+.card:hover {
+  box-shadow: 0 0.5em 1em 0 rgba(0, 0, 0, 0.2);
+}
+.card-body {
+  padding: 0.2em 1em;
+}
+.card-title {
+  margin-bottom: 0.8em;
+  font-size: 1.2em;
+}
+.card-image:hover {
+  opacity: 0.6;
+}

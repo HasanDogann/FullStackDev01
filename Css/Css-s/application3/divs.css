@@ -1,0 +1,17 @@
+#container {
+  width: 1140px;
+  display: block;
+  overflow: auto;
+  background: lightcoral;
+}
+#content1 {
+  background-color: gray;
+  width: 75%;
+  float: left;
+}
+
+#content2 {
+  background-color: greenyellow;
+  width: 25%;
+  float: left;
+}

@@ -1,0 +1,20 @@
+ul {
+  list-style-type: none;
+  padding: 0;
+  border: 0.1em solid grey;
+}
+ul li {
+  background-color: honeydew;
+
+  border-bottom: 0.1em solid grey;
+  padding: 0.5em 0.8em;
+}
+ul li:last-child {
+  border-bottom: none;
+}
+ol {
+  background-color: rgb(196, 196, 196);
+  list-style-type: none;
+  padding: 0.5em 1em;
+  border-left: 0.3em solid tomato;
+}

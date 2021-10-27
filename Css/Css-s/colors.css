@@ -1,0 +1,7 @@
+h2 {
+  color: #a52a2a;
+}
+p {
+  /*Here you can select the tranparency with rgba*/
+  background-color: rgba(255, 99, 71, 0.5);
+}

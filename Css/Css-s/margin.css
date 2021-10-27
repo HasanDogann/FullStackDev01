@@ -1,0 +1,21 @@
+div {
+  border: 1px solid salmon;
+  display: block;
+  width: 100px;
+  height: 100px;
+}
+.first {
+  background: rgb(237, 209, 189);
+  margin: 0px 10px 0px 10px;
+}
+.second {
+  background: salmon;
+  margin: 0px 10px 0px 10px;
+}
+.third {
+  background: sandybrown;
+  margin: auto;
+}
+body {
+  margin: 0;
+}

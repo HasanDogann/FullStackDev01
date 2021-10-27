@@ -1,0 +1,23 @@
+div {
+  border: 0.1em solid sandybrown;
+  width: 100px;
+  height: 100px;
+}
+.first {
+  background-color: seagreen;
+}
+.second {
+  background-color: sienna;
+}
+
+.third {
+  background-color: slategrey;
+}
+* {
+  margin: 0px;
+}
+span {
+  background-color: steelblue;
+  margin: 10px;
+  padding: 10px;
+}

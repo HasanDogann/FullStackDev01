@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <h1 style="color: tomato">Forms</h1>
+
+    <form action="register.php">
+      <div style="margin-bottom: 10px">
+        <!--Label is for a label and should be write for section same with id of target-->
+        <label style="margin-right: 20px" for="input1">Adınız</label>
+
+        <!--Input text is a text data input section-->
+        <input type="text" name="" id="input1" />
+      </div>
+      <div style="margin-bottom: 10px">
+        <!--Label is for a label and should be write for section same with id of target-->
+        <label for="input2">Soyadınız</label>
+
+        <!--Input is a data input section-->
+        <input type="text" name="" id="input2" />
+      </div>
+      <div style="margin-bottom: 10px">
+        <!--Button is for adding a button-->
+        <button type="submit">Save</button>
+      </div>
+
+      <!--Radio button is chosing for 1 Gender -->
+
+      <div style="margin-bottom: 10px">
+        <label>Your Gender--> </label>
+        <input type="radio" name="gender" id="Gender1" />
+        <label for="Gender1">Man</label>
+        <input type="radio" name="gender" id="Gender2" />
+        <label for="Gender2">Woman</label>
+      </div>
+
+      <!--Checkbox button for many choose-->
+      <div style="margin-bottom: 10px">
+        <label for="">Which Language You Use? *</label>
+        <input type="checkbox" id="cb1" />
+        <label for="cb1">Java</label>
+        <input type="checkbox" id="cb2" />
+        <label for="cb2">Javascript</label>
+        <input type="checkbox" id="cb3" />
+        <label for="cb3">Python</label>
+        <input type="checkbox" id="cb4" />
+        <label for="cb4">Dart</label>
+      </div>
+
+      <!--Textarea is using for example a about you area-->
+      <div>
+        <label for="intro">About Yourself</label>
+        <textarea style="margin-top: 5px" name="" id="intro"></textarea>
+      </div>
+
+      <!--Select is using for 1 choose of list -->
+      <div>
+        <label for="city">City</label>
+        <select name="" id="city">
+          <option value="38">Kayseri</option>
+          <option value="34">istanbul</option>
+          <option value="06">Ankara</option>
+        </select>
+      </div>
+
+      <!--Input a file example-->
+      <div style="margin-top: 30px">
+        <input type="file" id="file" />
+        <button>Upload</button>
+      </div>
+      <!--Input a date example-->
+      <div style="margin-top: 30px">
+        <label for="date1">Date</label>
+        <input type="date" id="date1" />
+      </div>
+
+      <!--Input a range example-->
+      <div style="margin-top: 30px">
+        <label for="range1">Range</label>
+        <input
+          type="range"
+          id="range1"
+          min="0"
+          max="100"
+          value="50"
+          step="10"
+          oninput="o1.value=range1.value"
+        />
+        <output id="o1"></output>
+      </div>
+    </form>
+  </body>
+</html>
